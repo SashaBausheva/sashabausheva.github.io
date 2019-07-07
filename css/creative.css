@@ -10723,6 +10723,8 @@ header.masthead h4 {
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
+  margin: 0.3rem;
+  border: 1px solid #5285AD;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
@@ -10765,4 +10767,8 @@ header.masthead h4 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.bg-blue {
+  background-color: #5285AD;
 }

@@ -5,6 +5,8 @@
     .portfolio-box {
       position: relative;
       display: block;
+      margin: 0.3rem;
+      border: 1px solid $blue;
       .portfolio-box-caption {
         display: flex;
         align-items: center;
@@ -34,6 +36,7 @@
           font-size: 1.2rem;
         }
       }
+
       &:hover {
         .portfolio-box-caption {
           opacity: 1;
@@ -41,4 +44,8 @@
       }
     }
   }
+}
+
+.bg-blue {
+  background-color: $blue;
 }
