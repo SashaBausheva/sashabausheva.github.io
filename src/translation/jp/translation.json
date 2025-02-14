@@ -1,0 +1,31 @@
+{
+  "about_link": "自己紹介",
+  "skills_link": "スキル",
+  "certifications_link": "資格",
+  "resume_link": "履歴書",
+  "contact_link": "連絡",
+
+  "header_title": "初めまして、 ",
+  "header_subtitle": "ボストンを拠点にしたフロントエンドウェブ開発者",
+  "header_next_section_button": "自己紹介",
+
+  "typewriter_text_1": "バウシェバ・サーシャです",
+  "typewriter_text_2": "フロントエンドウェブ開発者です",
+  "typewriter_text_3": "クリーンコードがすきです！",
+
+  "about_title": "サーシャは？",
+  "about_paragraph_1": "私はボストンを拠点としたフロントエンド ソフトウェアエンジニアで、主にReactを使っています。プロフェッショナルとして5年以上のコーディング経験があり、フルスタックからフロントエンドに移行しましたが、以前の学歴やバックグラウンドはマーケティングと翻訳にあります。クリーンコード、外国語、バレーボールに情熱を持っています。",
+  "about_paragraph_2": "コーディング プロジェクトに取り組んでいないときは、漢字の勉強をしたり、スポーツをしたり、コスプレに取り組んだりしていることが多いです。",
+  "about_next_section_button": "スキル",
+
+  "skills_title": "これまでに使用した技術およびフレームワーク",
+  "skills_next_section_button": "資格",
+
+  "certifications_title": "IAAPアクセシビリティコアコンピテンシー認定専門職 (CPACC)",
+  "certifications_subtitle": "アクセシビリティの原則をしっかり理解しており、障害のあるユーザーにも利用可能な技術製品を作成し、維持することができます。",
+  "certifications_cpacc_badge_alt": "CPACC認定バッジ",
+  "certifications_show_credential_button": "資格情報を表示",
+  "certifications_next_section_button": "履歴書・連絡",
+
+  "download_resume_button": "履歴書をダウンロード（英語）"
+}

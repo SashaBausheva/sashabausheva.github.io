@@ -1,0 +1,31 @@
+{
+  "about_link": "ABOUT",
+  "skills_link": "SKILLS",
+  "certifications_link": "CERTIFICATIONS",
+  "resume_link": "RESUME",
+  "contact_link": "CONTACT",
+
+  "header_title": "Hi, I'm ",
+  "header_subtitle": "Front-end software engineer based in Boston",
+  "header_next_section_button": "Who I am",
+
+  "typewriter_text_1": "Sasha Bausheva",
+  "typewriter_text_2": "a software engineer",
+  "typewriter_text_3": "a clean code enthusiast",
+
+  "about_title": "Who is Sasha?",
+  "about_paragraph_1": "I'm a front-end software engineer based in Boston, working primarily with React. I have been coding professionally for over 5 years, eventually transitioning from full-stack to front-end, though my former education and background are in marketing and translation. I am passionate about clean code, foreign languages, and volleyball.",
+  "about_paragraph_2": "If I’m not working on one of my projects, you will likely find me polishing my rusty Japanese skills, bumping-setting-spiking, or working on another cosplay!",
+  "about_next_section_button": "Skills",
+
+  "skills_title": "Technologies and frameworks I have worked with",
+  "skills_next_section_button": "Certifications",
+
+  "certifications_title": "IAAP Certified Professional in Accessibility Core Competencies (CPACC)",
+  "certifications_subtitle": "Sasha has a solid understanding of accessibility principles and can create and maintain technology products that are accessible to users with disabilities.",
+  "certifications_cpacc_badge_alt": "CPACC Certification Badge",
+  "certifications_show_credential_button": "Show credential",
+  "certifications_next_section_button": "Resume and contact",
+
+  "download_resume_button": "Download resume"
+}

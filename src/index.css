@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Montserrat';
+  background-color: #151515;
+  color: #dadada;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  li {
+    color: #aee8f4;
+    border: none;
+  }
+}
+
+#about,
+#certifications {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(197, 205, 215, 0.9) 0%,
+      rgba(255, 255, 255, 0.9) 70%,
+      rgba(226, 167, 174, 0.9) 100%
+    ),
+    url('/images/portfolio-bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.profile-image-container {
+  position: relative;
+  min-width: 220px;
+  min-height: 290px;
+}
+
+.profile-image-container img {
+  position: absolute;
+  backface-visibility: hidden;
+  transition: 1s;
+  transform-style: preserve-3d; /* 3D effect on child elements */
+}
+
+.profile-image-container img:nth-child(2) {
+  transform: rotateY(180deg);
+}
+
+.profile-image-container:hover img:nth-child(2) {
+  transform: rotateY(0deg);
+}
+
+.profile-image-container:hover img:nth-child(1) {
+  transform: rotateY(-180deg);
+}
