@@ -23,7 +23,10 @@ jobs:
       - name: Clean npm cache and install dependencies
         run: |
           rm -rf node_modules package-lock.json
-          npm ci
+          npm install
+
+      - name: Install dependencies (with npm ci)
+        run: npm ci
 
       # - name: Install dependencies
       #   run: npm install
