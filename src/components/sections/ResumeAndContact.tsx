@@ -1,4 +1,3 @@
-import React from 'react';
 
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faEnvelope, faPhone, type IconDefinition } from '@fortawesome/free-solid-svg-icons';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BRAND_ICON_LIST = [
   { iconCode: 'javascript-plain', iconName: 'JavaScript' },
   { iconCode: 'html5-plain', iconName: 'HTML5' },
