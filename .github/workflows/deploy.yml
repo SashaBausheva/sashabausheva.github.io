@@ -20,8 +20,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
+      - name: Clean npm cache and install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm ci
+
+      # - name: Install dependencies
+      #   run: npm install
         #uses: bahmutov/npm-install@v1
 
       - name: Build and predeploy project
