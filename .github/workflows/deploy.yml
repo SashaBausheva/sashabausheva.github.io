@@ -6,6 +6,10 @@ on:
      - main
       #- gh-pages
 
+permissions:
+  contents: write  # Give write access to repository contents
+  pages: write     # Allow deployment to GitHub Pages
+
 jobs:
   build_and_predeploy:
     name: Build and Predeploy
