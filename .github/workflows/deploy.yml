@@ -39,6 +39,11 @@ jobs:
       - name: Build and predeploy project
         run: npm run predeploy
 
+      - name: List contents of dist folder for debugging
+        run: |
+          echo "Listing contents of the dist directory..."
+          ls -al dist  # This will show the files in the 'dist' directory
+
       # - name: Deploy to Github Pages
       #   run: npx gh-pages -d dist
       #   env:
@@ -48,6 +53,10 @@ jobs:
           # Set up Git user info
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+
+          # Debugging: List current branch and remote configuration
+          git branch -a
+          git remote -v
           
           # Use the GITHUB_TOKEN to authenticate the git push
           npx gh-pages -d dist -b gh-pages --repo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
