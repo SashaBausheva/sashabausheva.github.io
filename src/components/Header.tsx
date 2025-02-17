@@ -15,7 +15,7 @@ export const Header = () => {
 
   return (
     <div className="m-auto flex w-full flex-col items-center justify-center">
-      <h1 className={'text-3xl font-bold text-gray-300'}>
+      <h1 className={'xs:text-xl md:text-3xl font-bold text-gray-300'}>
         {t('header_title')}
         <Typewriter />
       </h1>

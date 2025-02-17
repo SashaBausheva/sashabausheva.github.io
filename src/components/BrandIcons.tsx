@@ -24,7 +24,7 @@ const BRAND_ICON_LIST = [
 export const BrandIcons = () => {
   return BRAND_ICON_LIST.map((icon) => (
     <div key={icon.iconCode}>
-      <i className={`devicon-${icon.iconCode} mb-1 block w-full text-6xl`} />
+      <i className={`devicon-${icon.iconCode} mb-1 block w-full xs:text-3xl lg:text-6xl`} />
       <div>{icon.iconName}</div>
     </div>
   ));

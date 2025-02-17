@@ -10,9 +10,9 @@ export const Skills = () => {
   return (
     <section id="skills" className="flex h-screen items-center justify-center">
       <div className="max-w-screen-lg text-center">
-        <h2 className="py-8">{t('skills_title')}</h2>
+        <h2 className="xs:leading-8 md:leading-10 py-8">{t('skills_title')}</h2>
 
-        <div className="grid grid-cols-5 gap-3">
+        <div className="grid xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
           <BrandIcons />
         </div>
 

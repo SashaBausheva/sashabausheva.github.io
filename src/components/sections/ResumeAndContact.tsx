@@ -30,7 +30,7 @@ export const ResumeAndContact = () => {
           <FontAwesomeIcon icon={faDownload} bounce style={{ animationDuration: '1.5s' }} className="ml-2" />
         </button>
       </a>
-      <div className="mt-10 flex w-3/4 justify-between">
+      <div className="mt-10 grid xs:grid-cols-2 lg:grid-cols-4 gap-y-3 justify-between">
         <ContactItem title="abausheva@gmail.com" icon={faEnvelope} />
         <ContactItem title="570-768-8788" icon={faPhone} />
         <ContactItem title="sasha-bausheva" icon={faLinkedin} />

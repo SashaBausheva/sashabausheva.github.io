@@ -1,4 +1,4 @@
-import { NavBar } from './NavBar';
+import { NavBar } from './navigation/NavBar';
 import { Header } from './Header';
 import { About } from './sections/About';
 import { Skills } from './sections/Skills';
