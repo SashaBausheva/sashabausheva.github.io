@@ -1,4 +1,3 @@
-import React from 'react';
 import { useClickAway } from 'react-use';
 import { useRef } from 'react';
 import { useState } from 'react';
