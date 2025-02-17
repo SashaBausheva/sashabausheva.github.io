@@ -12,7 +12,8 @@ body {
   color: #dadada;
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 32px;
   }
 
   li {
