@@ -41,7 +41,7 @@ export const NavBarMobile = () => {
 
       <div
         className={classNames(
-          'fixed h-screen w-100 right-0 top-20 p-5 pt-0 bg-neutral-950 border-b border-b-white/20 transition-all',
+          'fixed h-screen w-screen right-0 top-20 p-5 pt-0 bg-neutral-950 border-b border-b-white/20 transition-all',
           { '-translate-x-full': !isOpen }
         )}
       >

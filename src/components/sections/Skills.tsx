@@ -1,4 +1,3 @@
-
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BrandIcons } from '../BrandIcons';
@@ -10,12 +9,12 @@ export const Skills = () => {
   return (
     <section id="skills" className="flex h-screen items-center justify-center">
       <div className="max-w-screen-lg text-center">
-        <h2 className="xs:leading-8 md:leading-10 py-8">{t('skills_title')}</h2>
-
+        <h2 className="md:leading-10 py-8" style={{ fontSize: '1.5rem ' }}>
+          {t('skills_title')}
+        </h2>
         <div className="grid xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
           <BrandIcons />
         </div>
-
         <a href="#certifications">
           <button
             type="button"
